@@ -1,0 +1,12 @@
+main: cn.wode490390.nukkit.dynamicmaxplayercount.DynamicMaxPlayerCount
+name: "DynamicMaxPlayerCount"
+description: "Dynamic max player count plugin for Nukkit"
+author: "wode490390"
+website: "http://wode490390.cn/"
+version: "${pom.version}"
+api: ["1.0.0"]
+load: POSTWORLD
+permissions:
+  dynamicmaxplayercount.fulljoin:
+    description: "Allows players to join game when the server is full"
+    default: op

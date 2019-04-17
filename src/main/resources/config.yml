@@ -1,0 +1,2 @@
+# The max player count is always greater than the current player count
+unlimit: false
